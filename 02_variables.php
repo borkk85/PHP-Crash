@@ -1,6 +1,6 @@
 <?php
 
-/*----- Variables & Data Types -----*/
+/*---Variables & Data Types---*/
 
 /*
 - String - A string is a series of characters surrounded by quotes
@@ -22,14 +22,14 @@
 - Variables are case-sensitive ($name and $NAME are two different variables)
 */
 
-$name = 'Brad'; // String // Can be single or double quotes
-$age = 40; // Integer
-$hasKids = true; // Boolean
-$cashOnHand = 10.5; //Float
+$name = 'Borko'; // String // Can be single or double quotes
+$age = 36; // Integer
+$hasKids = false; // Boolean
+$cashOnHand = 0.5; //Float
 
 var_dump($cashOnHand);
 
-/* --- Adding variables to strings -- */
+// Adding variables to strings
 
 // Double quotes can be used to add variables to strings
 echo "$name is $age years old";
