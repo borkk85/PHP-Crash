@@ -5,7 +5,7 @@
   Sessions are a way to store information (in variables) to be used across multiple pages.
   Unlike cookies, sessions are stored on the server.
 */
-
+session_start();
 if(isset($_POST['submit'])){
     $username = filter_input(INPUT_POST, 'username', FILTER_SANITIZE_SPECIAL_CHARS);
     $password = $_POST['password'];
